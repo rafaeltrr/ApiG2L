@@ -1,0 +1,18 @@
+Primeiramente Obrigado pela oportunidade
+Neste arquivo vou passar informações de como é a estrutura do codigo e como executar ele
+no geral fiz dois metodos de busca tanto para o veiculo quanto para o motorista
+para o motorista, você pode fazer buscas a partir do CPF e do ID
+e para o veiculo, você pode fazer buscas a partir da Placa e do ID
+fiz validações em tudo que consegui 
+
+base_url do veiculo : http://localhost:3001/api/veiculo
+
+base_url do motorista: http://localhost:3001/api/motorista
+
+lembrando que o insertVeiculo (inserir o ID do veiculo ao array de id do motorista)
+passei os valores pela url e não pelo corpo, fiz isso somente por fazer de outra forma
+porém como desejo fazer o App em React Native, isso pode mudar...
+
+fiquei em duvida quanto ao "POST inserir o Id do veiculo ao motorista", não consegui entender como faria isso
+então utilizei o update no lugar do POST
+
